@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "type": "EventSource",
+      "sources": [
+        {
+          "providerName": "MySuperDuperEventSource",
+          "level": "Informational"
+        }
+      ]
+    }
+  ],
+
+  "outputs": [
+    {
+      "type": "StdOutput"
+    }
+  ],
+  "schemaVersion": "2016-08-11"
+}
